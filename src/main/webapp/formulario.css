@@ -1,0 +1,42 @@
+body
+{
+    background-color: rgba(23,54,84,255); ;
+}
+label
+{
+    color: white;
+    font-size: 20px;
+}
+form
+{
+    padding: 40px;
+}
+footer
+{   position:fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #202529; 
+    color: #fff; 
+    padding: 10px; 
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: auto; 
+    grid-gap: 10px;
+    align-items: center; 
+}
+
+.col-3 h2 {
+    margin: 0; 
+}
+
+.col-3 ul {
+    margin: 0;
+    padding: 0; 
+}

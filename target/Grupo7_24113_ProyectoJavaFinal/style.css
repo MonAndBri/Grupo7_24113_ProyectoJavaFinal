@@ -1,0 +1,54 @@
+body
+{background-image: url('imagenes/fondo.jpg');
+background-size: cover;
+color: white;
+}
+.container
+{
+    margin-top: 10px;
+    text-align: justify;
+    align-items: center;
+    padding: 40px;
+    
+}
+h1
+{
+    font-size: 70px;
+     text-align: center;
+}
+h2
+{
+    font-size: 25px;
+    justify-items: center;
+    text-align: center;
+}
+
+footer
+{   margin-top: 40px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #202529; 
+    color: white !important;;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: auto; 
+    grid-gap: 10px;
+    align-items: center; 
+}
+
+.col-3 h2 {
+    margin: 0; 
+}
+
+.col-3 ul {
+    margin: 0;
+    padding: 0; 
+}

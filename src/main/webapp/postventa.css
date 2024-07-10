@@ -1,0 +1,62 @@
+.container
+{
+    margin-top: 10px;
+    text-align: justify;
+    align-items: center;
+    
+}
+h1
+{
+    font-size: 70px;
+     text-align: center;
+}
+h2
+{
+    font-size: 25px;
+    justify-items: center;
+    text-align: center;
+}
+
+footer
+{   margin-top: 120px; 
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #202529; 
+    color: white !important;;
+    padding: 10px; 
+    box-sizing: border-box;
+    align-items: center;
+}
+ul {
+    list-style: none;
+}
+.col-10 {
+    display: grid;
+    grid-template-columns: auto; 
+    grid-gap: 10px;
+    align-items: center; 
+    text-align: center;
+}
+.row1
+{   
+    background-image: url('imagenes/postventa.webp');
+    color: white;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+    padding: 10px; 
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.carousel slide
+{
+    height: 200px;
+}
+.logo
+{
+    height: 120px;
+    width: 160px;
+}
